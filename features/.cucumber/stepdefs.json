@@ -1,0 +1,50 @@
+[
+  {
+    "source": "^I am on the (.+) Home Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/search_steps.rb:1",
+    "steps": [
+      {
+        "name": "I am on the <search engine> Home Page",
+        "args": [
+          {
+            "offset": 12,
+            "val": "<search engine>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I search for \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/search_steps.rb:6",
+    "steps": [
+      {
+        "name": "I search for \"Qwinix Technologies\"",
+        "args": [
+          {
+            "offset": 14,
+            "val": "Qwinix Technologies"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see the \"(.*?)\" from search results$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/search_steps.rb:12",
+    "steps": [
+      {
+        "name": "I should see the \"Qwinix Technologies\" from search results",
+        "args": [
+          {
+            "offset": 18,
+            "val": "Qwinix Technologies"
+          }
+        ]
+      }
+    ]
+  }
+]
